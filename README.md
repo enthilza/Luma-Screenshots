@@ -23,7 +23,7 @@ Samostatné EXE obsahuje .NET runtime. Stačí ho uložiť do priečinka, kde m�
 
 - **Číslované značky (N):** kliknutia vkladajú 1, 2, 3… Farbu vyberieš v palete, veľkosť určuje hrúbka. Nástrojom Presun (M) značku premiestniš; funguje Delete aj Ctrl+Z.
 - **Prekrytie údajov (B):** potiahni obdĺžnik. Predvolene čierny, vždy úplne nepriehľadný, bez zaoblených rohov; farbu možno zmeniť. Export aj schránka obsahujú prekrytie zapracované do pixelov.
-- **Kvapkadlo (I):** klikni na obrázok alebo anotáciu. Vybraná farba sa prenesie do kreslenia a obnoví sa predchádzajúci nástroj.
+- **Kvapkadlo (I):** klikni na obrázok alebo anotáciu. Vybraná farba sa prenesie do kreslenia a obnoví sa predchádzajúci nástroj. Vedľa nápisu **Vybraná farba** vidíš jej farebný štvorček; presný kód sa zobrazí po prejdení myšou.
 - **Zmeniť rozmery:** spodná ikona šípok v ľavom paneli. Šírka/výška v pixeloch, voliteľne zachovaný pomer strán.
 - **Odstrániť pozadie:** spodná ikona šachovnice v ľavom paneli. Klikni na farbu pozadia v náhľade, nastav toleranciu a porovnaj originál. Predvolene sa odstraňuje iba súvislá farba od okrajov; voľbu možno vypnúť pre celý obrázok. Funguje lokálne bez AI, najlepšie na jednoduchom jednofarebnom pozadí. Zložité fotografie a vlasy nie sú cieľom tejto metódy.
 
@@ -31,7 +31,7 @@ Zmena rozmerov a odstránenie pozadia spoja anotácie s obrázkom; **Ctrl+Z obno
 
 ## Prehliadač obrázkov
 
-Vo vieweri koliesko myši približuje miesto pod kurzorom v nezmenenom výreze (10–1600 % pôvodného prispôsobenia). Drž pravé tlačidlo a ťahaj na posun zväčšeného obrázka. Ľavé ťahanie naďalej presúva okno. Pri ďalšom obrázku sa zobrazenie znova prispôsobí. V editore pravé ťahanie posúva plátno a tlačidlo **100 %** pri lupe ihneď obnoví pôvodnú veľkosť.
+Vo vieweri koliesko myši približuje miesto pod kurzorom v nezmenenom výreze (10–1600 % pôvodného prispôsobenia). Drž pravé tlačidlo a ťahaj na posun zväčšeného obrázka. Ľavé ťahanie naďalej presúva okno. Pri ďalšom obrázku sa zobrazenie znova prispôsobí. V editore koliesko približuje po 5 percentuálnych bodoch (5–800 %) a synchronizuje horný posuvník aj percentá. Pravé ťahanie alebo scrollbary posúvajú plátno a tlačidlo **100 %** pri lupe ihneď obnoví pôvodnú veľkosť.
 
 Dvojklik na asociovaný obrázok otvorí prehliadač bez rámu s jemným tieňom a priehľadným panelom. Neotvára editor ani nepridáva záložky.
 
@@ -66,6 +66,7 @@ Samotný kontrolný súčet overuje zhodu dát. Pôvod aktualizácie aplikácia 
 Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neukladajú na disk. Kontrola aktualizácií kontaktuje GitHub; obrázky sa pri nej neodosielajú. Nastavenia sú v `%LOCALAPPDATA%\LumaCapture`.
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
+
 
 
 
