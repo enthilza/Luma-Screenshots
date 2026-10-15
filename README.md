@@ -21,6 +21,8 @@ Samostatné EXE obsahuje .NET runtime. Stačí ho uložiť do priečinka, kde m�
 
 ## Prehliadač obrázkov
 
+Vo vieweri koliesko myši približuje miesto pod kurzorom v nezmenenom výreze (10–1600 % pôvodného prispôsobenia). Drž pravé tlačidlo a ťahaj na posun zväčšeného obrázka. Ľavé ťahanie naďalej presúva okno. Pri ďalšom obrázku sa zobrazenie znova prispôsobí. V editore pravé ťahanie posúva plátno a tlačidlo **100 %** pri lupe ihneď obnoví pôvodnú veľkosť.
+
 Dvojklik na asociovaný obrázok otvorí prehliadač bez rámu s jemným tieňom a priehľadným panelom. Neotvára editor ani nepridáva záložky.
 
 - Názov súboru a počítadlo; šípky na klávesnici aj paneli prechádzajú celý priečinok.
@@ -54,5 +56,6 @@ Samotný kontrolný súčet overuje zhodu dát. Pôvod aktualizácie aplikácia 
 Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neukladajú na disk. Kontrola aktualizácií kontaktuje GitHub; obrázky sa pri nej neodosielajú. Nastavenia sú v `%LOCALAPPDATA%\LumaCapture`.
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
+
 
 
