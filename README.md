@@ -35,6 +35,8 @@ V Nastaveniach klikni **Otvárať obrázky v Lume…**, potom potvrď predvolen�
 
 ## Aktualizácie
 
+Od verzie 1.4.1 sa kontrola, sťahovanie s percentami a overovanie zobrazujú v samostatnom okne. Sťahovanie možno zrušiť; sieť a kontrolný súčet neblokujú obsluhu okna. Nový priebeh sa prejaví až po nainštalovaní 1.4.1, pri ďalšom spustení aktualizácie.
+
 Tlačidlo **Aktualizovať** v editore alebo rovnaká položka v menu pri hodinách vyhľadá najnovšie stabilné vydanie. Aplikácia overí digitálny podpis popisu vydania (RSA/SHA-256) voči zabudovanému verejnému kľúču a následne SHA-256 aj veľkosť EXE. Pred výmenou a reštartom sa opýta; neuložené záložky treba najprv uložiť.
 
 Prvý prechod zo starších verzií bez aktualizátora vyžaduje manuálne nahradenie EXE. Ďalšie vydania možno inštalovať priamo z aplikácie.
@@ -52,4 +54,5 @@ Samotný kontrolný súčet overuje zhodu dát. Pôvod aktualizácie aplikácia 
 Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neukladajú na disk. Kontrola aktualizácií kontaktuje GitHub; obrázky sa pri nej neodosielajú. Nastavenia sú v `%LOCALAPPDATA%\LumaCapture`.
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
+
 
