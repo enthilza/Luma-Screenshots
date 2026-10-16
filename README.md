@@ -47,6 +47,10 @@ V Nastaveniach klikni **Otvárať obrázky v Lume…**, potom potvrď predvolen�
 
 ## Aktualizácie
 
+Od verzie **1.5.2** kontrola používa priamo verejné súbory vydania, bez GitHub REST API, účtu alebo tokenu. Nezávisí tak od spoločného anonymného API limitu na verejnej IP. Podpis sa stále overuje zabudovaným kľúčom a EXE kontrolným súčtom SHA-256; súbory patria vždy ku konkrétnej verzii.
+
+Ak staršia verzia hlási **Rate limit exceeded**, stiahni [nové Luma.exe](https://github.com/enthilza/Luma-Screenshots/releases/latest/download/Luma.exe), ulož rozpracované obrázky, ukonči Lumu cez ikonu pri hodinách → **Ukončiť Luma** a nahraď pôvodný EXE. Nastavenia zostanú zachované. Táto jednorazová výmena nainštaluje opravený aktualizátor. Bežné výpadky siete alebo obmedzenia samotného sťahovacieho servera sú naďalej možné.
+
 Od verzie 1.4.1 sa kontrola, sťahovanie s percentami a overovanie zobrazujú v samostatnom okne. Sťahovanie možno zrušiť; sieť a kontrolný súčet neblokujú obsluhu okna. Nový priebeh sa prejaví až po nainštalovaní 1.4.1, pri ďalšom spustení aktualizácie.
 
 Tlačidlo **Aktualizovať** v editore alebo rovnaká položka v menu pri hodinách vyhľadá najnovšie stabilné vydanie. Aplikácia overí digitálny podpis popisu vydania (RSA/SHA-256) voči zabudovanému verejnému kľúču a následne SHA-256 aj veľkosť EXE. Pred výmenou a reštartom sa opýta; neuložené záložky treba najprv uložiť.
@@ -66,6 +70,7 @@ Samotný kontrolný súčet overuje zhodu dát. Pôvod aktualizácie aplikácia 
 Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neukladajú na disk. Kontrola aktualizácií kontaktuje GitHub; obrázky sa pri nej neodosielajú. Nastavenia sú v `%LOCALAPPDATA%\LumaCapture`.
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
+
 
 
 
