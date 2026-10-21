@@ -71,9 +71,8 @@ Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neuklada
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
 
+## Hromadné uloženie
 
+Tlačidlo **Uložiť všetky neuložené** pri kartách alebo **Ctrl+Shift+S** otvorí výber priečinka a vzoru názvu. `Výlet_%` vytvorí `Výlet_1.png`, `Výlet_2.png`… Bez `%` sa pridá `_%`; príponu `.png` môžeš zadať aj vynechať. Všetky znaky `%` v jednom názve dostanú rovnaké číslo.
 
-
-
-
-
+Ukladajú sa iba neuložené karty v poradí otvorenia, celé obrázky vrátane anotácií ako PNG. Existujúce súbory sa neprepisujú a obsadené čísla sa preskakujú. Tlačidlo **Zastaviť** dokončí aktuálny súbor. Pri chybe alebo zastavení ostanú zvyšné karty neuložené; úspešné dostanú nový názov a označia sa ako uložené. Objekty v editore zostanú upraviteľné.
