@@ -35,7 +35,7 @@ Vo vieweri koliesko myši približuje miesto pod kurzorom v nezmenenom výreze (
 
 Dvojklik na asociovaný obrázok otvorí prehliadač bez rámu s jemným tieňom a priehľadným panelom. Neotvára editor ani nepridáva záložky.
 
-- Názov súboru a počítadlo; šípky na klávesnici aj paneli prechádzajú celý priečinok.
+- Názov súboru, dátum a čas vytvorenia súboru (miestny čas, dd.MM.yyyy HH:mm:ss) a počítadlo; šípky na klávesnici aj paneli prechádzajú celý priečinok.
 - Triedenie podľa názvu (prirodzene 1, 2, 10) alebo vytvorenia, vzostupne/zostupne.
 - Pamätá si monitor; po presunutí a pustení myši sa vycentruje na novom monitore. Obrázok s panelom sa zmestí do 90 % pracovnej plochy, so zachovanými proporciami.
 - Dvojklik alebo Enter otvorí obrázok v editore; Esc zatvorí iba prehliadač.
@@ -70,6 +70,7 @@ Samotný kontrolný súčet overuje zhodu dát. Pôvod aktualizácie aplikácia 
 Obrázky sa spracúvajú lokálne. Pri bežnom snímaní sa automaticky neukladajú na disk. Kontrola aktualizácií kontaktuje GitHub; obrázky sa pri nej neodosielajú. Nastavenia sú v `%LOCALAPPDATA%\LumaCapture`.
 
 Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
+
 
 
 
