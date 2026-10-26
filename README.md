@@ -76,3 +76,9 @@ Tento repozitár obsahuje distribučné súbory a informácie o vydaniach.
 Tlačidlo **Uložiť všetky neuložené** pri kartách alebo **Ctrl+Shift+S** otvorí výber priečinka a vzoru názvu. `Výlet_%` vytvorí `Výlet_1.png`, `Výlet_2.png`… Bez `%` sa pridá `_%`; príponu `.png` môžeš zadať aj vynechať. Všetky znaky `%` v jednom názve dostanú rovnaké číslo.
 
 Ukladajú sa iba neuložené karty v poradí otvorenia, celé obrázky vrátane anotácií ako PNG. Existujúce súbory sa neprepisujú a obsadené čísla sa preskakujú. Tlačidlo **Zastaviť** dokončí aktuálny súbor. Pri chybe alebo zastavení ostanú zvyšné karty neuložené; úspešné dostanú nový názov a označia sa ako uložené. Objekty v editore zostanú upraviteľné.
+
+## Karty a maximalizácia
+
+Malé šípky vľavo od kariet posúvajú ich pás bez prepínania obrázka. Horný scrollbar sa nezobrazuje. Nová alebo vybraná karta sa automaticky odkryje; na koncoch pásu sa šípky vypnú. Keď sa všetky karty zmestia, obe šípky sú neaktívne.
+
+Maximalizované okno editora rešpektuje pracovnú plochu aktuálneho monitora vrátane priestoru vyhradeného pre panel úloh Windows. Režim automatického skrývania panela úloh naďalej riadi Windows.
