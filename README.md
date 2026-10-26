@@ -82,3 +82,6 @@ Ukladajú sa iba neuložené karty v poradí otvorenia, celé obrázky vrátane 
 Malé šípky vľavo od kariet posúvajú ich pás bez prepínania obrázka. Horný scrollbar sa nezobrazuje. Nová alebo vybraná karta sa automaticky odkryje; na koncoch pásu sa šípky vypnú. Keď sa všetky karty zmestia, obe šípky sú neaktívne.
 
 Maximalizované okno editora rešpektuje pracovnú plochu aktuálneho monitora vrátane priestoru vyhradeného pre panel úloh Windows. Režim automatického skrývania panela úloh naďalej riadi Windows.
+
+Posuvníky plátna aj ostatných panelov sú zladené s tmavou alebo svetlou témou Lumy. Majú zaoblené zelené úchyty a zvýraznenie pri prejdení myšou alebo ťahaní; farby sa menia okamžite pri prepnutí témy.
+
