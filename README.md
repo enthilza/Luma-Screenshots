@@ -83,7 +83,7 @@ Malé šípky vľavo od kariet posúvajú ich pás bez prepínania obrázka. Hor
 
 Maximalizované okno editora rešpektuje pracovnú plochu aktuálneho monitora vrátane priestoru vyhradeného pre panel úloh Windows. Režim automatického skrývania panela úloh naďalej riadi Windows.
 
-Od verzie **1.5.7** sa pri zmene monitora obnovujú aj vnútorné rozmery rozloženia editora, aby bočný panel nezostal mimo viditeľnej časti okna.
+Od verzie **1.5.8** sa kontrolujú aj konečné hranice maximalizovaného okna, aby nepresahovalo na susedný monitor. Minimálna veľkosť editora sa prispôsobuje dostupnej ploche a mierke zobrazenia. Verzia 1.5.7 opravovala iba vnútorné rozmery a samotné presahovanie okna neodstránila.
 
 Posuvníky plátna aj ostatných panelov sú zladené s tmavou alebo svetlou témou Lumy. Majú zaoblené zelené úchyty a zvýraznenie pri prejdení myšou alebo ťahaní; farby sa menia okamžite pri prepnutí témy.
 
